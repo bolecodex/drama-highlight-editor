@@ -7,12 +7,12 @@
 在 ArkClaw 所在机器执行：
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/bolecodex/drama-highlight-editor/main/scripts/setup-github.sh)
+bash <(curl -fsSL https://gitee.com/bolecodex/drama-highlight-editor/raw/main/scripts/setup-gitee.sh)
 ```
 
 脚本会完成这些事情：
 
-- 克隆本仓库到 `~/.arkclaw/drama-highlight-editor`
+- 从 Gitee 克隆本仓库到 `~/.arkclaw/drama-highlight-editor`
 - 安装 Python CLI `drama-cut`
 - 安装 Skill 到 `~/.arkclaw/skills/drama-highlight-editor`
 - 创建命令包装器 `~/.arkclaw/bin/drama-cut`

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO_URL="${DRAMA_HIGHLIGHT_REPO_URL:-https://github.com/bolecodex/drama-highlight-editor.git}"
+REPO_URL="${DRAMA_HIGHLIGHT_REPO_URL:-https://gitee.com/bolecodex/drama-highlight-editor.git}"
 BRANCH="${DRAMA_HIGHLIGHT_BRANCH:-main}"
 ARKCLAW_HOME="${ARKCLAW_HOME:-${CLAW_HOME:-$HOME/.arkclaw}}"
 INSTALL_DIR="${DRAMA_HIGHLIGHT_INSTALL_DIR:-$ARKCLAW_HOME/drama-highlight-editor}"
