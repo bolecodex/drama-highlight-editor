@@ -1,0 +1,11 @@
+[
+  {"id": "default", "name": "通用剪辑", "description": "跨集保留主线，删减废戏，适用于大部分短剧", "file": "default.txt"},
+  {"id": "conflict", "name": "冲突开场", "description": "强冲突和悬念前置，适合复仇、权谋、家庭争执", "file": "conflict.txt"},
+  {"id": "romance", "name": "甜宠爱情", "description": "强化 CP 互动、误会、告白和情感共鸣", "file": "romance.txt"},
+  {"id": "suspense", "name": "悬疑烧脑", "description": "信息差和谜题前置，适合悬疑、推理、身份谜团", "file": "suspense.txt"},
+  {"id": "family", "name": "家庭情感", "description": "家庭伦理、亲情催泪、婆媳矛盾、女性成长", "file": "family.txt"},
+  {"id": "content_clean", "name": "违规清理", "description": "优先规避血腥、色情、暴力特写和片尾闪光", "file": "content_clean.txt"},
+  {"id": "revenge", "name": "逆袭爽文", "description": "压抑、爆发、打脸、隐藏身份揭露", "file": "revenge.txt"},
+  {"id": "ancient_romance", "name": "古偶仙侠", "description": "古装、仙侠、虐恋、命运感和奇观镜头", "file": "ancient_romance.txt"},
+  {"id": "cute_kids", "name": "萌娃引流", "description": "萌娃、亲子、认亲、身世之谜和反差萌", "file": "cute_kids.txt"}
+]

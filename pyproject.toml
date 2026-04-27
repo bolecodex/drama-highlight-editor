@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drama-highlight-cut"
+version = "0.1.0"
+description = "短剧投流高光分析与 FFmpeg 成片生产 CLI"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "httpx>=0.25",
+  "openai>=1.0",
+  "pydantic>=2.0",
+  "python-dotenv>=1.0",
+  "typer>=0.12",
+]
+
+[project.optional-dependencies]
+dev = []
+
+[project.scripts]
+drama-cut = "drama_cut.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+drama_cut = ["templates/*.txt", "templates/index.json"]
